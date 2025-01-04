@@ -1,0 +1,27 @@
+{
+    "@@locale": "ja",
+    "helloWorld": "こんにちは、世界!",
+    "@helloWorld": {
+        "description": "プログラミングの挨拶。"
+    },
+    "clicksCount": "クリック数: {count}",
+    "@clicksCount": {
+        "description": "クリック数を表示します。",
+        "placeholders": {
+            "count":{
+                "type": "int",
+                "example": "0"
+            }
+        }
+    },
+    "cartItems": "{count, plural, =0{カートに商品が入っていません} other{カートに{count}個の商品が入っています。}}",
+    "@cartITems":{
+        "description": "カート内の商品数を表示します。",
+        "placeholders": {
+            "count": {
+                "type":"int",
+                "example":"0"
+            }
+        }
+    }
+}
